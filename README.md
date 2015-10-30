@@ -1,14 +1,14 @@
 ## Example Automated Salesforce APEX Build & Deploy
 
 
-### Required Environment Variables
+#### Required Environment Variables
 - SFDC_PASSWORD
 - SFDC_TOKEN
 - SFDC_LOGIN
 
 
 
-### Running
+#### Running
 ```
 npm install
 npm start
