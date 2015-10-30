@@ -3,7 +3,7 @@ jsforce = require 'jsforce'
 archiver = require 'archiver'
 
 {SFDC_PASSWORD, SFDC_TOKEN, SFDC_LOGIN} = process.env
-PACKAGE = 'dist/text.zip'
+PACKAGE = 'dist/apex.zip'
 
 
 ###
