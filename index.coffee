@@ -24,3 +24,4 @@ conn.login SFDC_LOGIN, "#{SFDC_PASSWORD}#{SFDC_TOKEN}", (err) ->
 
   zipStream = fs.createReadStream(PACKAGE)
   conn.metadata.deploy(zipStream).complete (err, result) ->
+    console.log err if err?
