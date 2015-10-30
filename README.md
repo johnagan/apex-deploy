@@ -1,4 +1,4 @@
-# Sample Automated Salesforce APEX Build & Deploy
+## Example Automated Salesforce APEX Build & Deploy
 
 
 ### Required Environment Variables
