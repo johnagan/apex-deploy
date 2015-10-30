@@ -1,0 +1,16 @@
+{
+  "name": "apex-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "coffee index.coffee",
+    "postinstall": "coffee index.coffee"
+  },
+  "author": "John Agan <johnagan@github.com> (https://github.com/johnagan)",
+  "dependencies": {
+    "archiver": "^0.16.0",
+    "coffee": "^1.3.1",
+    "jsforce": "^1.5.0",
+    "lodash": "^3.10.1"
+  }
+}
