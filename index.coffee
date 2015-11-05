@@ -21,6 +21,7 @@ Deploy APEX Package
 ###
 conn = new jsforce.Connection()
 conn.login SFDC_LOGIN, "#{SFDC_PASSWORD}#{SFDC_TOKEN}", (err) ->
+  console.log err if err?
 
   zipStream = fs.createReadStream(PACKAGE)
   conn.metadata.deploy(zipStream).complete (err, result) ->
